@@ -8,7 +8,7 @@
             "archive": true,
             "includes": ["pawno/include"],
             "plugins": ["plugins/streamer.so"]
-        }
+        },
         {
             "name": "^samp-streamer-plugin-(.*).zip$",
             "platform": "windows",
