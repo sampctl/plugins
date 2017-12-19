@@ -1,0 +1,20 @@
+{
+    "user": "Zeex",
+    "repo": "samp-plugin-crashdetect",
+    "resources": [
+        {
+            "name": "^crashdetect-(.*)-linux.tar.gz$",
+            "platform": "linux",
+            "archive": true,
+            "includes": ["."],
+            "plugins": ["crashdetect.so"]
+        },
+        {
+            "name": "^crashdetect-(.*)-win32.tar.gz$",
+            "platform": "windows",
+            "archive": true,
+            "includes": ["."],
+            "plugins": ["crashdetect.dll"]
+        }
+    ]
+}
