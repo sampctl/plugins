@@ -13,7 +13,7 @@
             }
         },
         {
-            "name": "mysql-R41-4-win32.zip",
+            "name": "^mysql-.+-win(32)?.zip$",
             "platform": "windows",
             "archive": true,
             "includes": ["pawno/include"],
