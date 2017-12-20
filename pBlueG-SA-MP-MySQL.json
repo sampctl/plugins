@@ -3,7 +3,7 @@
     "repo": "SA-MP-MySQL",
     "resources": [
         {
-            "name": "^mysql-.+-([Dd]ebian[0-9]?|[Ll]inux)-stati\\.tar\\.gz$",
+            "name": "^mysql-.+-([Dd]ebian[0-9]?|[Ll]inux)-static\\.tar\\.gz$",
             "platform": "linux",
             "archive": true,
             "includes": ["pawno/include"],
