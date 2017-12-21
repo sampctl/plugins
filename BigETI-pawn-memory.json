@@ -1,0 +1,18 @@
+{
+    "user": "BigETI",
+    "repo": "pawn-memory",
+    "resources": [
+        {
+            "name": "pawn-memory-linux-x86.zip",
+            "platform": "linux",
+            "archive": true,
+            "plugins": ["memory.so"]
+        },
+        {
+            "name": "pawn-memory-windows-x86.zip",
+            "platform": "windows",
+            "archive": true,
+            "plugins": ["plugins/pawn-memory.dll"]
+        }
+    ]
+}
