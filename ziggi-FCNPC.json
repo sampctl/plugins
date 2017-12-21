@@ -1,0 +1,18 @@
+{
+    "user": "ziggi",
+    "repo": "FCNPC",
+    "resources": [
+        {
+            "name": "^FCNPC-(.+).zip$",
+            "platform": "linux",
+            "archive": true,
+            "plugins": ["plugins/FCNPC.so"]
+        },
+        {
+            "name": "^FCNPC-(.+).zip$",
+            "platform": "windows",
+            "archive": true,
+            "plugins": ["plugins/FCNPC.dll"]
+        }
+    ]
+}
