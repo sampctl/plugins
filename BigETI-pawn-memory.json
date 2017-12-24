@@ -1,6 +1,7 @@
 {
     "user": "BigETI",
     "repo": "pawn-memory",
+    "include_path": "include",
     "resources": [
         {
             "name": "pawn-memory-linux-x86.zip",
