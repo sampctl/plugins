@@ -1,6 +1,7 @@
 {
     "user": "Zeex",
     "repo": "samp-plugin-crashdetect",
+    "include_path": "include",
     "resources": [
         {
             "name": "^crashdetect-(.*)-linux.tar.gz$",
