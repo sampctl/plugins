@@ -6,7 +6,7 @@
             "name": "^pawnraknet-(.*)-linux.tar.gz$",
             "platform": "linux",
             "archive": true,
-            "plugins": ["pawnraknet.dll"]
+            "plugins": ["pawnraknet.so"]
         },
         {
             "name": "^pawnraknet-(.*)-win32.zip$",
