@@ -1,6 +1,7 @@
 {
     "user": "ziggi",
     "repo": "FCNPC",
+    "include_path": "sampsvr_files",
     "resources": [
         {
             "name": "^FCNPC-(.+).zip$",
