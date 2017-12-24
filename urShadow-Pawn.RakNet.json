@@ -1,0 +1,18 @@
+{
+    "user": "urShadow",
+    "repo": "Pawn.RakNet",
+    "resources": [
+        {
+            "name": "^pawnraknet-(.*)-linux.tar.gz$",
+            "platform": "linux",
+            "archive": true,
+            "plugins": ["pawnraknet.dll"]
+        },
+        {
+            "name": "^pawnraknet-(.*)-win32.zip$",
+            "platform": "windows",
+            "archive": true,
+            "plugins": ["pawnraknet.dll"]
+        }
+    ]
+}
