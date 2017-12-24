@@ -1,6 +1,7 @@
 {
     "user": "urShadow",
     "repo": "Pawn.RakNet",
+    "include_path": "src",
     "resources": [
         {
             "name": "^pawnraknet-(.*)-linux.tar.gz$",
