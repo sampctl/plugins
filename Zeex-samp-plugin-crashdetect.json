@@ -17,5 +17,8 @@
             "includes": ["."],
             "plugins": ["crashdetect-(.*)-win32/crashdetect.dll"]
         }
-    ]
+    ],
+    "runtime": {
+        "plugins": ["Zeex/samp-plugin-crashdetect"]
+    }
 }

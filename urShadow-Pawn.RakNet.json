@@ -15,5 +15,8 @@
             "archive": true,
             "plugins": ["pawnraknet.dll"]
         }
-    ]
+    ],
+    "runtime": {
+        "plugins": ["urShadow/Pawn.RakNet"]
+    }
 }

@@ -15,5 +15,8 @@
             "archive": true,
             "plugins": ["plugins/FCNPC.dll"]
         }
-    ]
+    ],
+    "runtime": {
+        "plugins": ["ziggi/FCNPC"]
+    }
 }
