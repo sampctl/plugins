@@ -1,0 +1,22 @@
+{
+        "include_path": "pawno/include",
+        "user": "Hual",
+        "repo": "SAMPSON",
+        "entry": "test.pwn",
+        "output": "test.amx",
+        "dependencies": [
+                "sampctl/samp-stdlib"
+        ],
+        "resources": [
+                {
+                        "name": "SAMPSON.dll",
+                        "platform": "windows",
+                        "archive": false
+                },
+                {
+                        "name": "SAMPSON.so",
+                        "platform": "linux",
+                        "archive": false
+                }
+        ]
+}
