@@ -1,0 +1,23 @@
+{
+	"user": "maddinat0r",
+	"repo": "samp-discord-connector",
+	"resources": [
+		{
+			"name": "discord-connector-(.*).tar.gz",
+			"platform": "linux",
+			"archive": true,
+			"includes": ["discord-connector-(.*)/pawno/include"],
+			"plugins": ["discord-connector-(.*)/plugins/discord-connector.so"]
+		},
+		{
+			"name": "discord-connector-(.*)-win32.zip",
+			"platform": "windows",
+			"archive": true,
+			"includes": ["discord-connector-(.*)-win32/pawno/include"],
+			"plugins": ["discord-connector-(.*)-win32/plugins/discord-connector.dll"]
+		}
+	],
+	"runtime": {
+		"plugins": ["maddinat0r/samp-discord-connector"]
+	}
+}
