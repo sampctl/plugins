@@ -1,0 +1,16 @@
+{
+    "user": "Shoebill",
+    "repo": "ShoebillPlugin",
+    "resources": [
+        {
+            "name": "Shoebill.dll",
+            "platform": "windows",
+            "archive": false
+        },
+        {
+            "name": "Shoebill",
+            "platform": "linux",
+            "archive": false
+        }
+    ]
+}
