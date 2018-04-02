@@ -1,0 +1,21 @@
+{
+    "user": "JaTochNietDan",
+    "repo": "SA-MP-FileManager",
+    "resources": [
+        {
+            "name": "^FileManager_(.*)_Windows.zip$",
+            "platform": "windows",
+            "archive": true,
+            "plugins": ["FileManager.dll"]
+        },
+        {
+            "name": "^FileManager_(.*)_Linux.zip$",
+            "platform": "linux",
+            "archive": true,
+            "plugins": ["FileManager.so"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["JaTochNietDan/SA-MP-FileManager"]
+    }
+}

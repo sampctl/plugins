@@ -1,0 +1,21 @@
+{
+    "user": "udan11",
+    "repo": "samp-plugin-timerfix",
+    "resources": [
+        {
+            "name": "^timerfix-.+-win32\\.zip$",
+            "platform": "windows",
+            "archive": true,
+            "plugins": ["timerfix.dll"]
+        },
+        {
+            "name": "^timerfix-.+-linux\\.tar\\.gz$",
+            "platform": "linux",
+            "archive": true,
+            "plugins": ["timerfix.so"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["udan11/samp-plugin-timerfix"]
+    }
+}
