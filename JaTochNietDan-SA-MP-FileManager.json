@@ -6,13 +6,13 @@
             "name": "^FileManager_(.*)_Windows.zip$",
             "platform": "windows",
             "archive": true,
-            "plugins": ["FileManager.dll"]
+            "plugins": ["^FileManager.dll$"]
         },
         {
             "name": "^FileManager_(.*)_Linux.zip$",
             "platform": "linux",
             "archive": true,
-            "plugins": ["FileManager.so"]
+            "plugins": ["^filemanager.so$"]
         }
     ],
     "runtime": {
