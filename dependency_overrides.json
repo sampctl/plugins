@@ -1,0 +1,5 @@
+{
+  "overrides": {
+    "Zeex/samp-plugin-crashdetect:v4.20": "AmyrAhmady/samp-plugin-crashdetect:v4.22"
+  }
+}
