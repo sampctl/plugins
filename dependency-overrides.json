@@ -1,5 +1,6 @@
 {
   "overrides": {
-    "Zeex/samp-plugin-crashdetect:v4.20": "AmyrAhmady/samp-plugin-crashdetect:v4.22"
+    "Zeex/samp-plugin-crashdetect:v4.20": "AmyrAhmady/samp-plugin-crashdetect:v4.22",
+    "Zeex/samp-plugin-profiler": "Foundation-PAWN/samp-plugin-profiler-backup"
   }
 }
